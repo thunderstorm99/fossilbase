@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: "postgres"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=fossilbase
+      - POSTGRES_USER=fossilbase
+      - POSTGRES_PASSWORD=Ch4n6eM3!
